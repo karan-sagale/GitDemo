@@ -48,7 +48,8 @@ public class Actions_Automation {
 		// contextClick() methods performs Right-Click mouse operation
 		a.moveToElement(move).contextClick().build().perform();
 		
-		System.out.println("Welcome to Actions Automation");
+		System.out.println("Welcome to Actions Automation Class");
+	
 
 	}
 
