@@ -10,6 +10,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class Actions_Automation {
 
 	public static void main(String[] args) {
@@ -45,6 +47,8 @@ public class Actions_Automation {
 		// Actions class
 		// contextClick() methods performs Right-Click mouse operation
 		a.moveToElement(move).contextClick().build().perform();
+		
+		System.out.println("Welcome to Actions Automation");
 
 	}
 
