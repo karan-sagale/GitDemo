@@ -80,6 +80,7 @@ public class All_Locators_Practice {
         // By xpath >> Generic xpath based on Text of the Web Element
         driver.findElement(By.xpath("//button[text()='Log Out']")).click();
 		
+		System.out.println("Welcome to Actions American Commit2");
 
 driver.quit();
 	}
