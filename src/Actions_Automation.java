@@ -53,7 +53,8 @@ public class Actions_Automation {
 		System.out.println("Welcome to Actions American Commit");
 		
 		System.out.println("Welcome to Actions develop branch");
-
+		
+		System.out.println("Welcome to Actions develop 3 by GitStuff");
 	}
 
 }
