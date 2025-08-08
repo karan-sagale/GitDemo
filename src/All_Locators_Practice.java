@@ -81,6 +81,8 @@ public class All_Locators_Practice {
         driver.findElement(By.xpath("//button[text()='Log Out']")).click();
 		
 		System.out.println("Welcome to Actions American Commit2");
+		
+		System.out.println("Welcome to Actions develop 2");
 
 driver.quit();
 	}
